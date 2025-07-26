@@ -1,0 +1,86 @@
+[debug] [2025-07-26T23:11:34.866Z] ----------------------------------------------------------------------
+[debug] [2025-07-26T23:11:34.868Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\benmn\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-07-26T23:11:34.869Z] CLI Version:   14.11.1
+[debug] [2025-07-26T23:11:34.869Z] Platform:      win32
+[debug] [2025-07-26T23:11:34.869Z] Node Version:  v20.18.0
+[debug] [2025-07-26T23:11:34.869Z] Time:          Sat Jul 26 2025 18:11:34 GMT-0500 (Central Daylight Time)
+[debug] [2025-07-26T23:11:34.869Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-26T23:11:35.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-26T23:11:35.057Z] > authorizing via signed-in user (ben.m.newell@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\liftkc\SC-IDP\sc-idp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-26T23:11:39.818Z] Using project from CLI flag: sc-idp
+[debug] [2025-07-26T23:11:39.819Z] Checked if tokens are valid: true, expires at: 1753574958490
+[debug] [2025-07-26T23:11:39.819Z] Checked if tokens are valid: true, expires at: 1753574958490
+[debug] [2025-07-26T23:11:39.821Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp [none]
+[debug] [2025-07-26T23:11:40.081Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp 200
+[debug] [2025-07-26T23:11:40.081Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp {"projectId":"sc-idp","projectNumber":"493792617214","displayName":"SC-IDP","name":"projects/sc-idp","resources":{"hostingSite":"sc-idp"},"state":"ACTIVE","etag":"1_a1499133-c88a-4df3-acbc-de6a4ca0c18a"}
+[info] i  Using project sc-idp (SC-IDP) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-26T23:11:40.086Z] Checked if tokens are valid: true, expires at: 1753574958490
+[debug] [2025-07-26T23:11:40.086Z] Checked if tokens are valid: true, expires at: 1753574958490
+[debug] [2025-07-26T23:11:40.086Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp [none]
+[debug] [2025-07-26T23:11:40.284Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp 200
+[debug] [2025-07-26T23:11:40.284Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sc-idp {"projectId":"sc-idp","projectNumber":"493792617214","displayName":"SC-IDP","name":"projects/sc-idp","resources":{"hostingSite":"sc-idp"},"state":"ACTIVE","etag":"1_a1499133-c88a-4df3-acbc-de6a4ca0c18a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-07-26T23:13:31.022Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-07-26T23:13:31.111Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-07-26T23:13:31.112Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.0.0","browserURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.tgz"},"live":{"version":"12.0","browserURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.0.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.0.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/12.0.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.0.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.0.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.0.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.0.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.memory.js"}}
+[info] +  Wrote web-build/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\liftkc\SC-IDP\sc-idp 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=302113021&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-26T23:14:18.440Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-07-26T23:14:18.441Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-07-26T23:14:18.728Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-07-26T23:14:18.728Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-07-26T23:14:18.733Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-07-26T23:14:19.047Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-07-26T23:14:19.047Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"BenNewell32","id":23373268,"node_id":"MDQ6VXNlcjIzMzczMjY4","avatar_url":"https://avatars.githubusercontent.com/u/23373268?v=4","gravatar_id":"","url":"https://api.github.com/users/BenNewell32","html_url":"https://github.com/BenNewell32","followers_url":"https://api.github.com/users/BenNewell32/followers","following_url":"https://api.github.com/users/BenNewell32/following{/other_user}","gists_url":"https://api.github.com/users/BenNewell32/gists{/gist_id}","starred_url":"https://api.github.com/users/BenNewell32/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BenNewell32/subscriptions","organizations_url":"https://api.github.com/users/BenNewell32/orgs","repos_url":"https://api.github.com/users/BenNewell32/repos","events_url":"https://api.github.com/users/BenNewell32/events{/privacy}","received_events_url":"https://api.github.com/users/BenNewell32/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Ben Newell","company":null,"blog":"","location":null,"email":"Ben.M.Newell@gmail.com","hireable":null,"bio":null,"twitter_username":null,"notification_email":"Ben.M.Newell@gmail.com","public_repos":21,"public_gists":0,"followers":13,"following":23,"created_at":"2016-11-10T05:41:00Z","updated_at":"2025-07-26T23:14:14Z","private_gists":0,"total_private_repos":53,"owned_private_repos":53,"disk_usage":766608,"collaborators":4,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as BenNewell32 
+[info] 
+[debug] [2025-07-26T23:15:36.596Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\benmn\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:519:28)
+    at Interface.emit (node:domain:488:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1126:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:265:20)
+    at ReadStream.emit (node:events:531:35)
+    at ReadStream.emit (node:domain:488:12)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
